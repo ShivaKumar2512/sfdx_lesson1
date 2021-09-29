@@ -99,7 +99,10 @@
         <members>Property__c</members>
         <name>CustomObject</name>
     </types>
-   
+    <types>
+        <members>ContactController</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>dreamhouse</members>
         <name>PermissionSet</name>
@@ -107,6 +110,10 @@
     <types>
         <members>Property__c-Property Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Property__c.Features__c</members>
+        <name>CustomField</name>
     </types>
     <version>52.0</version>
 </Package>
